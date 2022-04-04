@@ -31,7 +31,7 @@
   <h3 align="center">I Gede Miarta Yasa</h3>
 
   <p align="center">
-    0815 2996 3914
+    Junior Backend Engineer.
     <br />
   </p>
 </div>
