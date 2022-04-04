@@ -17,6 +17,11 @@
    ```sh
    git clone https://github.com/IGedeMiarta/Pizza-Html.js.git
    ```
+   Or
+   download in rar
+   ```sh
+   https://drive.google.com/file/d/1gGOCQRbFXGLmMXWd_Yp358kb_7an-F90/view?usp=sharing
+   ```
 2. Update Composer
    ```sh
    open index.html
