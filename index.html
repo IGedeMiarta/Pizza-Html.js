@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <!-- link to style css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">PIZZA</h1>
+     <div class="row">
+        <div class="col-md-4">
+           <div class="card">
+                <img src="img/medium.jpg" alt="pizza" class="card-img-top">
+                <div class="card-body text-center">
+                    <h2 class="text-center">Pizza 1 <br> Margherita</h2>
+                    <h3>$8</h3>
+                    <input type="radio" name="pizza" id="pizza1" class="radio" value="8" onchange="pizza_price()">
+                    <label for="pizza1"></label>
+                </div>
+           </div>
+        </div>
+        <div class="col-md-4">
+           <div class="card">
+                <img src="img/medium.jpg" alt="pizza" class="card-img-top">
+                <div class="card-body text-center">
+                    <h2 class="">Pizza 2 <br> Neapolitan</h2>
+                    <h3>$10</h3>
+                    <input type="radio"  name="pizza" id="pizza2" class="radio" value="10" onchange="pizza_price()">
+                    <label for="pizza2"></label>
+                </div>
+           </div>
+        </div>
+        <div class="col-md-4">
+           <div class="card">
+                <img src="img/medium.jpg" alt="pizza" class="card-img-top">
+                <div class="card-body text-center">
+                    <h2 class="text-center">Pizza 3 <br> Marinara</h2>
+                    <h3>$12</h3>
+                    <input type="radio" name="pizza" id="pizza3" class="radio" value="12" onchange="pizza_price()">
+                    <label for="pizza3"></label>
+                </div>
+           </div>
+        </div>
+        
+
+    </div>
+<!-- <hr> -->
+<br>
+<br>
+    <h2 class="text-center">Size</h2>
+    <div class="content-center">
+        <div class="row">
+            <div class="col-md-4">
+                <div>
+                  <input type="radio" name="size" id="small" class="radio-md" onchange="sizePz()">
+                  <label for="small">Small</label>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                  <input type="radio" name="size" checked id="medium" class="radio-md" onchange="sizePz()">
+                  <label for="medium">Medium</label>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                  <input type="radio" name="size" id="large" class="radio-md" onchange="sizePz()">
+                  <label for="large">Large</label>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+<hr>
+        <h2 class="text-center">Topping</h2>
+       <div class="content-center">
+        <div class="row">
+            
+            <div class="col-md-4">
+               <input type="checkbox" id="avocado" name="topping[]" class="checkbox-md" value="1" onchange="topppingPz()">
+                <label for="avocado">avocado</label>
+                <br>
+                <input type="checkbox" id="broccoli" name="topping[]" class="checkbox-md" value="1" onchange="topppingPz()">
+                <label for="broccoli">broccoli</label>
+                <br>
+                <input type="checkbox" id="onions" name="topping[]"  class="checkbox-md" value="1" onchange="topppingPz()">
+                <label for="onions">onions</label>
+                <br>
+                <input type="checkbox" id="zucchini" name="topping[]" class="checkbox-md" value="1" onchange="topppingPz()"> 
+                <label for="zucchini">zucchini</label>
+                <br>
+           </div>
+           <div class="col-md-4">
+               <input type="checkbox" id="lobster" name="topping[]" class="checkbox-md" value="2" onchange="topppingPz()">
+                <label for="lobster">Lobster</label>
+                <br>
+                <input type="checkbox" id="oyster" name="topping[]" class="checkbox-md" value="2" onchange="topppingPz()">
+                <label for="oyster">Oyster</label>
+                <br>
+                <input type="checkbox" id="salmon" name="topping[]" class="checkbox-md" value="2" onchange="topppingPz()">
+                <label for="salmon">Salmon</label>
+                <br>
+                <input type="checkbox" id="tuna" name="topping[]" class="checkbox-md tuna" value="2" onchange="topppingPz()">
+                <label for="tuna">Tuna</label>
+                <br>
+           </div>
+           <div class="col-md-4">
+               <input type="checkbox" id="bacon" name="topping[]" class="checkbox-md" value="3" onchange="topppingPz()">
+                <label for="bacon">Bacon</label>
+                <br>
+                <input type="checkbox" id="duck" name="topping[]" class="checkbox-md duck" value="3" onchange="topppingPz()">
+                <label for="duck">Duck</label>
+                <br>
+                <input type="checkbox" id="ham" name="topping[]" class="checkbox-md" value="3" onchange="topppingPz()">
+                <label for="ham">Ham</label>
+                <br>
+                <input type="checkbox" id="sausage" name="topping[]" class="checkbox-md sausage" value="3" onchange="topppingPz()">
+                <label for="sausage">Sausage</label>
+                <br>
+           </div>
+          
+        </div>
+
+        <hr>
+        <h1 class="price">Price: $<span id="pizza_price" >0</span></h1>
+        
+    </div>
+    
+    
+    <!-- link to script js -->
+    <script src="script.js"></script>
+</body>
+</html>
