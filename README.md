@@ -21,5 +21,13 @@
    ```sh
    open index.html
    ```
-### I Gede Miarta Yasa || 0815 2996 3914
+   
+<div align="center">
+  <h3 align="center">I Gede Miarta Yasa</h3>
+
+  <p align="center">
+    0815 2996 3914
+    <br />
+  </p>
+</div>
 
